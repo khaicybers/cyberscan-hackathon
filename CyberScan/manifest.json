@@ -1,0 +1,25 @@
+{
+    "name": "CyberProtect",
+    "description": "Protect you on internet realtime",
+    "version": "1.0",
+    "action": {
+        "default_icon": "/image/intertwined_fate.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs",
+        "storage",
+        "fontSettings",
+        "contentSettings",
+        "debugger",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 3
+}
